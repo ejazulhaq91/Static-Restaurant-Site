@@ -5,13 +5,15 @@ body{
     font-family: 'Oxygen', sans-serif;
 }   
 
-
+/* Main Header Area */
 #header-nav{
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
+    margin-bottom: 20px;
 }
 
+/* Restaurant Logo Image */
 #logo-img{
     background: url("../images/restaurant-logo_large.png") no-repeat;
     width: 150px;
@@ -19,6 +21,7 @@ body{
     margin: 10px 15px 10px 0;
 }
 
+/* Brand Area i.e. Name etc */
 .navbar-brand{
     padding-top: 25px;
 }
@@ -51,6 +54,7 @@ body{
     vertical-align: middle;
 }
 
+/* Navigation Items list */
 #nav-list{
     margin-top: 10px;
 }
@@ -177,6 +181,55 @@ button.navbar-toggler{
     margin-top: 25px;
 }
 
+.category-title{
+    position: relative;
+    border: 2px solid #310C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px; /* left and right are auto  */
+}
+
+.category-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.80;
+}
+
+.category-title:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div{
+    margin-bottom: 50px;
+}
+
+#call-btn > a{
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+
+#xs-deliver{
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+
+
 @media screen and (min-width: 1200px){
     .container .jumbotron{
         background: url("../images/jumbotron_1200.jpg") no-repeat;
@@ -257,5 +310,13 @@ button.navbar-toggler{
         margin: 30px auto 0 auto;
         border-top: 1px solid #eee;
     }
+    /* .col-xs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    } */
 }
 
