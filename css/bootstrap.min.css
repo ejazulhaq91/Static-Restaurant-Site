@@ -505,7 +505,7 @@ legend+*
 }
 [type=search]
 {
-    -webkit-appearance:textfield;
+    -webkit-appearance: textfield;
     outline-offset:-2px
 }
 ::-webkit-search-decoration
